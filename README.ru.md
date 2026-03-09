@@ -59,7 +59,8 @@ English version: [README.md](README.md)
 
 Чтобы войти, используйте следующие данные: mail@example.com, passwd
 
-## Скриншоты
+<details>
+<summary>Нажмите чтобы увидеть скриншоты</summary>
 
 ### Страница входа
 
@@ -84,3 +85,5 @@ English version: [README.md](README.md)
 ### Страница редактирования проекта
 
 ![Project edit page](docs/screenshots/ProjectEdit.png)
+
+</details>

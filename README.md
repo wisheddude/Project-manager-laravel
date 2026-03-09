@@ -59,7 +59,8 @@ Great, run the project with the command
 
 To log in, use the following information: mail@example.com, passwd
 
-## Screenshots
+<details>
+<summary>Click to view screenshots</summary>
 
 ### Login page
 
@@ -84,3 +85,5 @@ To log in, use the following information: mail@example.com, passwd
 ### Project edit page
 
 ![Project edit page](docs/screenshots/ProjectEdit.png)
+
+</details>
