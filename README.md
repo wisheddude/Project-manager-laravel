@@ -25,10 +25,44 @@ cd Project-manager-laravel
 
 composer install
 
-cp .env-example .env
+ren .env.example .env
 
 php artisan key:generate
 
-php artisan migrate
+php artisan migrate --seed
+
+npm install
+
+npm run build
 
 php artisan serve
+
+## Using 
+
+To log in, use the following information: mail@example.com, passwd
+
+## Screenshots
+
+### Login page
+
+![Login page](docs/screenshots/Login.png)
+
+### Sign up page
+
+![Sign up page](docs/screenshots/SignUp.png)
+
+### Main page
+
+![Main page](docs/screenshots/Main.png)
+
+### Tasks in project
+
+![Tasks in project](docs/screenshots/InProject.png)
+
+### Project create page
+
+![Project create page](docs/screenshots/ProjectCreate.png)
+
+### Project edit page
+
+![Project edit page](docs/screenshots/ProjectEdit.png)
