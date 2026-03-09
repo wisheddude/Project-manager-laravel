@@ -2,6 +2,8 @@
 
 Simple task manager inspired by services like Weeek and Trello.
 
+Русская версия: [README.ru.md](README.ru.md)
+
 ## Features
 
 - User Authentication
