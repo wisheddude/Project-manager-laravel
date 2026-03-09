@@ -19,23 +19,39 @@ Simple task manager inspired by services like Weeek and Trello.
 
 ## Installation
 
-git clone https://github.com/wisheddude/Project-manager-laravel
+Clone repo into yours directory
 
-cd Project-manager-laravel
+`git clone https://github.com/wisheddude/Project-manager-laravel`
 
-composer install
+Go to the directory of the installed project
 
-ren .env.example .env
+`cd Project-manager-laravel`
 
-php artisan key:generate
+Install dependencies
 
-php artisan migrate --seed
+`composer install`
 
-npm install
+Rename the environment file
 
-npm run build
+`ren .env.example .env`
 
-php artisan serve
+Generate an application key
+
+`php artisan key:generate`
+
+Migrate and seed the database
+
+`php artisan migrate --seed`
+
+Install the required packages and compile the styles
+
+`npm install`
+
+`npm run build`
+
+Great, run the project with the command
+
+`php artisan serve`
 
 ## Using 
 
